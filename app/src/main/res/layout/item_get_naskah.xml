@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlackYoung">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/id_naskah"
+                    android:layout_width="20dp"
+                    android:text="1"
+                    android:fontFamily="@font/mlight"
+                    android:textColor="@color/colorWhite"></TextView>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:text="."
+                    android:textSize="18sp"></TextView>
+
+                <TableLayout android:layout_width="wrap_content">
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="Nomor Naskah"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/nomor_naskah"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="Tgl Naskah"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/tgl_naskah"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/para_pihak"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/para_pihak"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/tentang"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/tentang"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/masa_berlaku"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/masa_berlaku"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="Dokumen Lp"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/upload_document"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="8dp">
+
+                        <Button
+                            android:id="@+id/buttonDetails"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_input_login"
+                            android:fontFamily="@font/mlight"
+                            android:text="Details"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">Admin E-infohukum polda sumbar</string>
+    <string name="psh">PSH</string>
+    <string name="kke">KKE</string>
+    <string name="disiplin">Disiplin</string>
+    <string name="pidana">Pidana</string>
+    <string name="naskah_kerma">Naskah Kerma</string>
+    <string name="peraturan">Peraturan</string>
+    <string name="nama_pelaku">Nama Pelaku</string>
+    <string name="pangkat">Pangkat</string>
+    <string name="nrp">NRP</string>
+    <string name="jabatan">Jabatan</string>
+    <string name="perkara">Perkara</string>
+    <string name="no_psh">No PSH</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="nama_terduga_pelanggar">Nama Terduga Pelanggar</string>
+    <string name="kesatuan">Kesatuan</string>
+    <string name="pasal_dilanggar">Pasal Dilanggar</string>
+    <string name="psh_document">PSH Document</string>
+    <string name="nama_pelapor">Nama Pelapor</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_laporan">Nomor Laporan</string>
+    <string name="angka">Angka</string>
+    <string name="no_berkas_laporan">No Berkas Laporan</string>
+    <string name="tgl_sidang">Tanggal Sidang</string>
+    <string name="tgl_laporan">Tanggal Laporan</string>
+    <string name="isi_putusan">Isi Putusan</string>
+    <string name="document_lp">Document LP</string>
+    <string name="isi_banding">Isi Banding</string>
+    <string name="document_putusan">Document Putusan</string>
+    <string name="skhp">SKHP</string>
+    <string name="nomor">Nomor</string>
+    <string name="para_pihak">Para Pihak</string>
+    <string name="tentang">Tentang</string>
+    <string name="masa_berlaku">Masa Berlaku</string>
+    <string name="upload_document">Upload Document</string>
+    <string name="pilih_peraturan">Pilih Peraturan</string>
+    <string name="nomor_peraturan">Nomor Peraturan</string>
+    <string name="tgl_penetapan">Tanggal Penetapan</string>
+    <string name="tgl_pengesahan">Tanggal Pengesahan</string>
+    <string name="nama_pejabat_tanda_tangan">Nama Pejabat Tanda Tangan</string>
+    <string name="no_register">No Register</string>
+    <string name="terima_kasih">Terima Kasih</string>
+    <string name="pengisian_data_sudah_berhasil">Pengisian Data Sudah Berhasil</string>
+    <string name="home">Home</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="nomor_psh">Nomor Psh</string>
+    <string name="nama">Nama</string>
+    <string name="bulan">Bulan</string>
+    <string name="photo_vonis">Photo Vonis</string>
+    <string name="photo_surat">Photo Surat</string>
+    <string name="photo_putusan">Photo Putusan</string>
+
+    <array name="perkara">
+        <item>-Perkara-</item>
+        <item>Disiplin</item>
+        <item>KKE</item>
+    </array>
+    <array name="bulan">
+        <item>-Bulan-</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+    </array>
+    <string-array name="tahun">
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+    </string-array>
+    <array name="kesatuan">
+        <item>-Kesatuan-</item>
+        <item>Agam</item>
+        <item>Kepulauan Mentawai</item>
+        <item>Lima Puluh Kota</item>
+        <item>Padang Pariaman</item>
+        <item>Dharmasraya</item>
+        <item>Pasaman</item>
+        <item>Pasaman Barat</item>
+        <item>Pesisir Selatan</item>
+        <item>Sijunjung</item>
+        <item>Solok</item>
+        <item>Solok Selatan</item>
+        <item>Tanah Datar</item>
+        <item>Bukittinggi</item>
+        <item>Padang</item>
+        <item>Padang Panjang</item>
+        <item>Pariaman</item>
+        <item>Payakumbuh</item>
+        <item>Sawahlunto</item>
+        <item>Solok Kota</item>
+    </array>
+
+    <array name="peraturan">
+        <item>-Peraturan-</item>
+        <item>Kapolda</item>
+        <item>Agam</item>
+        <item>Kepulauan Mentawai</item>
+        <item>Lima Puluh Kota</item>
+        <item>Padang Pariaman</item>
+        <item>Dharmasraya</item>
+        <item>Pasaman</item>
+        <item>Pasaman Barat</item>
+        <item>Pesisir Selatan</item>
+        <item>Sijunjung</item>
+        <item>Solok</item>
+        <item>Solok Selatan</item>
+        <item>Tanah Datar</item>
+        <item>Bukittinggi</item>
+        <item>Padang</item>
+        <item>Padang Panjang</item>
+        <item>Pariaman</item>
+        <item>Payakumbuh</item>
+        <item>Sawahlunto</item>
+        <item>Solok Kota</item>
+    </array>
+    <string-array name="nama_bulan">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </string-array>
+</resources>

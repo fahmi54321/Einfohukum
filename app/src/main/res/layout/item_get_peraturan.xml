@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlackYoung">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="8dp">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/id_peraturan"
+                    android:layout_width="20dp"
+                    android:text="1"
+                    android:fontFamily="@font/mlight"
+                    android:textColor="@color/colorWhite"></TextView>
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:text="."
+                    android:textSize="18sp"></TextView>
+
+                <TableLayout android:layout_width="wrap_content">
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/pilih_peraturan"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/pilih_peraturan"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/nomor_peraturan"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/nomor_peraturan"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/tgl_penetapan"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/tgl_penetapan"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/tgl_pengesahan"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/tgl_pengesahan"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/nama_pejabat_tanda_tangan"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/nama_pejabat_tanda_tangan"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/no_register"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/no_register"
+                            android:fontFamily="@font/mlight"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/tentang"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/tentang"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+                    <TableRow>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text="@string/upload_document"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:text=" : "
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:id="@+id/upload_document"
+                            android:text="..."
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+                    <TableRow
+                        android:layout_marginTop="8dp">
+
+                        <Button
+                            android:id="@+id/buttonDetails"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_input_login"
+                            android:fontFamily="@font/mlight"
+                            android:text="Details"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:textColor="@color/colorWhite"></TextView>
+
+                        <TextView
+                            android:fontFamily="@font/mlight"
+                            android:textColor="@color/colorWhite"></TextView>
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
